@@ -1,0 +1,140 @@
+*{
+    font-family: Roboto;
+}
+
+body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.row{
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.btn-primary{
+    background-color:#085f2f;
+    border: 2px solid #054b24;
+}
+
+.btn-primary:hover{
+    background-color:#054b24;
+    border: 2px solid #085f2f;
+}
+
+#titulo h1{
+    font-size: 14pt;
+    font-weight: 800;
+    margin: 0 auto;
+}
+
+.msg{
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.topico{
+    font-weight: bold;
+    color: rgb(2, 66, 2);
+}
+
+.jumbotron {
+    height:100%;
+    width:100%;
+    margin: 50px;
+}
+.container {
+    width:1025px;
+    text-align: center;
+}
+.jumbotron .container {
+    max-width: 100%;
+}
+.jumbotron .lead{
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+}
+.lead ion-icon{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+
+/*Navegacao*/
+#navbar{
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+#navbar a{
+    font-size: 14pt;
+    color: #5a5a5a;
+}
+#navbar a:hover{
+    color: #085f2f;
+    text-shadow: #cacaca;
+}
+
+/*Listagem de produtos*/
+#products-list{
+    padding: 50px;
+}
+
+#products-list img{
+    max-height: 100px;
+}
+
+#products-list form{
+    display: inline-block;
+}
+
+/* Pagina de cadastro de produto*/
+
+#produto-create-container{
+    padding: 30px;
+}
+
+#produto-create-container{
+    font-weight: bold;
+}
+
+#produto-create-container input,
+#produto-create-container textarea{
+    font-size: 14px;
+}
+
+/*Pagina de edição*/
+.img-preview{
+    width: 100px;
+    margin-top: 20px;
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+    background-color: #353535;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    margin-bottom: 0;
+}
